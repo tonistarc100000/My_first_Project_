@@ -1,0 +1,673 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* box-sizing: border-box; */
+}
+    
+main{
+    padding: 0;
+    margin: 0;
+    width: 1333px;
+    margin: auto;
+    height: 1730px;
+
+}
+
+#backimg{
+    height: 504px;
+    width: 1333px;
+    margin: 0;
+}
+
+@media (min-width: 600px) and (max-width:800px)
+{
+    #backimg{
+        height: 300px;
+        width: 800px;
+
+    }
+}
+
+@media (min-width: 400px) and (max-width:600px)
+{
+    #backimg{
+        height: 200px;
+        width: 600px;
+
+    }
+}
+
+@media (min-width: 200px) and (max-width:500px)
+{
+    #backimg{
+        height: 150px;
+        width: 430px;
+        
+
+    }
+}
+
+
+
+#mainstart{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: absolute;
+    top:275px;
+    display: flex;
+    z-index: 1;
+    height: auto;
+    width: 1333px;
+}
+
+
+
+
+
+ /* FOR FIRST LINE content  */
+
+#line1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    width: 1313px;
+    height: 380px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+
+
+.similar{
+    height: 345px;
+    width: 310px;
+    padding: 20px 0px 15px 0px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+
+/* First Box heading */
+
+#o1-heading{
+    display: block;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    
+}
+
+
+ /* FOR CONTROLLER ROW 1   */
+#controller-row1{
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 10px 10px 0px 10px;
+    height: 135px;
+    width: 290px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+/* FOR CLAW section */
+#controller-item1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#claw-img{
+   
+    width: 121px;
+    height: 111px;
+}
+
+#claw-text{
+    margin-top: 7px;
+    width: 111px;
+    height: 15px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+     
+}
+
+/* FOR ZEBRONICS section */
+#controller-item2{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+#zebronics-img{
+    width: 140px;
+    height: 105px;  
+}
+
+#zebronics-text{
+    margin-top: 10px;
+    width: 140px;
+    height: 15px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+
+ /* FOR CONTROLLER ROW 2   */
+#controller-row2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+    height: 135px;
+    width: 290px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+
+/* FOR REDGEAR_PRO section */
+#controller-item3{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#redgear-img{
+    width: 140px;
+    height: 100px;
+}
+
+#redgear-text{
+    width: 120px;
+    height: 15px;
+    font-size: 11px;
+    font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
+    margin-top: 7px;
+    text-align: center;
+    
+
+
+}
+
+
+
+
+
+/* FOR COSMIC_Byte section */
+
+#controller-item4{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#cosmic-img{
+    width: 140px;
+    height: 100px;
+}
+
+#cosmic-text{
+    width: 120px;
+    height: 15px;
+    font-size: 11px;
+    font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
+    margin-top: 7px;
+    text-align: center;
+    
+
+
+}
+
+
+
+
+.ending{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin: 15px 0px 0px 10px;
+    color: #4095A4;
+}
+
+
+.ending:hover{
+    color: orangered;
+    
+}
+
+
+
+/* Second Box heading */
+
+#o2-heading{
+    display: block;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+
+}
+
+
+
+#all-text-img{
+    height: 280px;
+    width: 300px;
+    margin-left: 5px;
+}
+
+
+
+/* Third Box heading */
+
+#o3-heading{
+    display: block;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+
+}
+
+
+
+/* Content  */
+#object3{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#watch-img{
+    padding: 15px;
+    
+}
+
+
+
+/* Fourth and Fifth Box Heading */
+
+#divider{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    height: 380px;
+    background-color: rgb(255, 255, 255,0.0)
+}
+
+
+
+#object4{
+    display: flex;
+    margin-top: 0%;
+    padding: 15px 0px 0px 0px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+#o4-heading{
+    display: block;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    width: 180px;
+    
+}
+
+
+
+#stack{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+
+
+#ads1{
+    width: 105px;
+    height: 105px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#object5{
+    display: flex;
+
+    margin-top: 5%;
+    width: 100%;
+    height: 248px;
+    background-color: rgb(225, 255, 0);
+}
+
+#HP{
+    width: 100%;
+    height: 238px;
+}
+
+
+
+
+
+
+
+
+
+
+/* For Lane 2 Start From Here  */
+
+
+#lane2{
+    display: flex;
+    /* temporary */
+    /* margin-bottom: 400px; */
+    margin-top: 0;
+    width: 1313px;
+    height: 330px;
+    padding: 5px 12px 10px 13px;
+    background-color: rgb(255, 255, 255,0.0);
+}
+
+
+#GOT-image{
+    
+    width: 645px;
+    height: 330px;
+    box-shadow: 1px 1px 8px rgb(80, 80, 80);
+
+}
+
+
+#GOT-ALL-TEXT{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#GOT-text1{
+    width: 250px;
+    position: relative;
+    bottom: 70px;
+    left: 390px;
+    color: white;
+    font-size: 25px;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+#GOT-text2{
+    width: 200px;
+    position: relative;
+    bottom: 70px;
+    left: 390px;
+    color: white;
+    font-size: 14px;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+#GOT-text3{
+    width: 300px;
+    position: relative;
+    bottom: 80px;
+    left: 15px;
+    color: white;
+    font-size: 11px;
+    font-family: Geneva, Verdana, sans-serif;
+    word-spacing: 1px;
+}
+
+
+#GOT-text3:hover{
+    text-decoration: underline;
+    color: rgb(236, 236, 236);
+}
+
+
+
+
+
+/* Lane 2 Box 2 & 3 */
+
+
+
+
+#obj2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 312px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15px;
+}
+
+
+
+
+
+
+#obj3{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 312px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 17px;
+
+}
+
+
+
+#o5-heading,#o6-heading{
+    margin: 10px 20px 7px 20px;
+    display: block;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 230px;
+    
+}
+
+
+
+#head-section,#girls-items{
+    margin-left: 20px;
+    width: 270px;
+    height: 220px;
+}
+
+
+.ending{
+    margin: 5px 0px 0px 10px;
+}
+
+
+
+
+
+#lane3{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 0;
+    width: 1313px;
+    height: 250px;
+    padding: 5px 12px 10px 13px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+#lane3-heading{
+    color: #0F1111;
+    width: 280px;
+    height: 26px;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+
+#all-img-lane3{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+
+
+
+
+#all-img-lane3 img{
+    margin: 3px;
+}
+
+
+
+
+
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(255, 255, 255,0.0);
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+
+#center-banner{
+    display: flex;
+    flex-direction: row;
+    width: 968px;
+    height: 210px;
+    background-color: white;
+    padding: 25px 40px;
+    box-sizing: border-box;
+}
+
+
+
+#all-text-details{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    width: 500px;
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+#acer-summery{
+    width: 400px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.percent{
+font-size: 20px;
+font-weight: 100;
+color: rgb(198, 42, 42);
+}
+
+.super{
+    font-size: 10px;
+    color: rgb(198, 42, 42);
+    font-weight: lighter;
+    margin: 3px 0px 0px 10px;
+}
+
+#sub{
+    color: #383838;
+    font-size: 15px;
+    margin-left: 5px;
+
+}
+
+
+
+
+
+
+
+
+#lane4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-top: 0;
+    width: 1313px;
+    height: 250px;
+    padding: 5px 12px 10px 13px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+#lane4-heading{
+    color: #0F1111;
+    width: 280px;
+    height: 26px;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+
+#all-img-lane4{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+
+
+
+
+#all-img-lane4 img{
+    margin: 3px;
+}
+
+
+
